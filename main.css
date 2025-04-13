@@ -4,7 +4,7 @@
   font-family: "Bai Jamjuree", sans-serif;
   box-sizing: border-box;
 }
-p{
+p {
   line-height: 2.3rem;
 }
 :root {
@@ -63,30 +63,34 @@ section p {
   align-items: center;
   margin-top: 5rem;
 }
-.buttons button {
+.buttons{
+  margin-block:30px 70px  ;
+}
+.buttons a {
   width: 250px;
   border: none;
-  padding: 15px;
+  padding: 15px 30px ;
   border-radius: 25px;
   color: aliceblue;
   font-size: 18px;
-  margin-inline: 10px;
+  margin-inline:10px;
+  text-decoration: none;
 }
 .button-shade {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .ios {
   background-color: var(--Strong-Cyan);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
-.ios:hover{
+.ios:hover {
   background-color: hsl(171, 60%, 52%);
 }
-.mac{
+.mac {
   background-color: var(--Light-Blue);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
-.mac:hover{
+.mac:hover {
   background-color: hsl(233, 100%, 75%);
 }
 /* Second-Section */
@@ -95,7 +99,7 @@ section p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-block: 150px;
+  margin-block: 90px;
   width: 900px;
 }
 .S-sect h1 {
@@ -108,7 +112,7 @@ section p {
   width: 750px;
 }
 .monitor-sect {
-  margin-right:18%;
+  margin-right: 18%;
   display: flex;
   align-items: center;
 }
@@ -197,23 +201,6 @@ section p {
 .workflow .imgs img {
   object-fit: none;
 }
-.l-buttons button {
-  width: 250px;
-  border: none;
-  padding: 15px;
-  border-radius: 25px;
-  color: aliceblue;
-  box-shadow: black 50px;
-  font-size: 18px;
-  margin-block: 40px 150px;
-  margin-inline: 10px;
-}
-.l-buttons button:first-child {
-  background-color: var(--Strong-Cyan);
-}
-.l-buttons button:nth-child(2) {
-  background-color: var(--Light-Blue);
-}
 footer {
   background-color: rgb(231, 231, 231);
   width: 100%;
@@ -234,6 +221,7 @@ footer ul {
   width: 40%;
 }
 footer ul li a {
+  text-decoration: none;
   color: var(--Dark-Grayish-Blue);
   transition-duration: 0.2s;
 }
